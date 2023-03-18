@@ -1,23 +1,22 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
  * main - entry point
  *
  * Return: 0 (Success)
- *
  */
 
 int main(void)
 {
-	char low;
+	char Case;
 
-	for (low = 'a'; low <= 'z'; low++)
-	putchar(low);
+	for (Case = 'a'; Case <= 'z'; Case++)
+	putchar(Case);
 
-	for (low = 'A'; low <= 'Z'; low++)
-	putchar(low)
+	for (Case = 'A'; Case <= 'Z'; Case++)
+	putchar(Case)
 	putchar('\n');
 
 	return (0);
