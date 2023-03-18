@@ -16,7 +16,7 @@ int main(void)
 	putchar(Case);
 
 	for (Case = 'A'; Case <= 'Z'; Case++)
-	putchar(Case)
+	putchar(Case);
 	putchar('\n');
 
 	return (0);
