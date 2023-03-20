@@ -18,7 +18,7 @@ int main(void)
 			if (i < ii && i != ii)
 			{
 				putchar(i + '0');
-				putchar(ii = '0');
+				putchar(ii + '0');
 
 					if (i + ii != 17)
 					{
