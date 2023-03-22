@@ -2,6 +2,8 @@
 /**
  * _isalpha - Entry point
  *
+ *@c: parameter to be checked
+ *
  * Return: 1 for letters. 0 for the rest.
  */
 int _isalpha(int c)
