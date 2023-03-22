@@ -3,6 +3,8 @@
 /**
  * print_last_digit - Entry point
  *
+ * @l: parameter to be printed
+ *
  * Return: last digit
  */
 
