@@ -3,6 +3,8 @@
 /**
  * _abs - Entry point
  *
+ * @i: parameter to be checked
+ *
  * Return: absolute value
  */
 
