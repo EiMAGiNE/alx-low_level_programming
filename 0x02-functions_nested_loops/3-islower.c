@@ -2,6 +2,8 @@
 /**
  * _islower - Entry point
  *
+ *@c: parameter to be printed
+
  * Return: 1 for lowercase character. 0 for the rest.
  */
 int _islower(int c)
