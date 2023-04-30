@@ -2,7 +2,7 @@
 
 /**
  * free_listint2 - frees the list
- * @head: parameter for the head of list
+ * @head: parameter pointer to the head of list
  */
 void free_listint2(listint_t **head)
 {
@@ -11,6 +11,7 @@ void free_listint2(listint_t **head)
 	while (*head != NULL)
 	{
 		current = *head;
+		*head = (*head)->next;
 		free(current);
 	}
 	*head = NULL;
