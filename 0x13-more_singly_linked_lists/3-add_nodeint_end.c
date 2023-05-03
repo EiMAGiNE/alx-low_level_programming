@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - adss a new node at the end of list
  * @head: parameter for head of list
- * @n parameter for integer of node
+ * @n: parameter for integer of node
  *
  * Return: the address of the new element, or NULL if it failed
  */
