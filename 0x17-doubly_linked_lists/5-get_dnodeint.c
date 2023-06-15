@@ -2,8 +2,8 @@
 
 /**
  * dlistint_t *get_dnodeint_at_index - returns the nth node
- *@head - parameter for head
- *@index - parameter for index of node
+ *@head: parameter for head
+ *@index: parameter for index of node
  * Return: the nth node of linked list, or NULL
  */
 
