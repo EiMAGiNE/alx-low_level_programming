@@ -2,8 +2,7 @@
 
 /**
  * free_dlistint - frees list
- * @head - parameter for head pointer
- *
+ * @head: parameter for head pointer
  */
 
 void free_dlistint(dlistint_t *head)
@@ -13,6 +12,7 @@ void free_dlistint(dlistint_t *head)
 	while (current != NULL)
 	{
 		dlistint_t *next = current->next;
+
 		free(current);
 		current = next;
 	}
